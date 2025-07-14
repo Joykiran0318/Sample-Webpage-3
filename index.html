@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - Vinhem Fashion Wedding</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #fff;
+      color: #333;
+    }
+
+    /* 🗺️ Google Map */
+    .map-section iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+    }
+
+    /* 💌 Contact Form Original Version */
+    .contact-container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 40px 10%;
+      margin: 60px auto;
+      gap: 30px;
+      margin-top: -20px;    
+    }
+
+    .contact-info {
+      flex: 1;
+      min-width: 280px;
+      padding: 20px;
+    }
+
+    .contact-info h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: #c8683f26;
+    }
+
+    .contact-info p {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+
+    .contact-info p span {
+      display: block;
+      margin-top: 8px;
+    }
+
+    .contact-form {
+      flex: 1;
+      min-width: 300px;
+      padding: 30px;
+      border-radius: 20px;
+      /* background: linear-gradient(135deg, #f0d5c8, #f4c9b2, #f3c1b1, #d4bbb3); */
+      background: linear-gradient(120deg, #efd5c2, #e8c4b2, #dfb7a7);
+      background-size: 400% 400%;
+      animation: gradientMove 10s ease infinite;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    }
+
+    .contact-form form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      padding: 12px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      font-size: 14px;
+    }
+
+    .contact-form button {
+      padding: 12px;
+      border: none;
+      background: #c06b4780;
+      color: white;
+      font-size: 16px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .contact-form button:hover {
+      background: #a0340c;
+    }
+
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* ➕ Extra Sections */
+    .section {
+      padding: 60px 10%;
+      text-align: center;
+      background: linear-gradient(135deg, #fce3d4, #f9d4e1, #e4dcf1);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .section h2 {
+      font-size: 28px;
+      color: #c1440e;
+      margin-bottom: 20px;
+    }
+
+    .features {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .feature {
+      width: 250px;
+      padding: 20px;
+      background: #f2d3cb;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .feature i {
+      font-size: 40px;
+      color: #c76136;
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .contact-container {
+        flex-direction: column;
+        padding: 20px;
+      }
+
+      .features {
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+    .contact-intro
+    {
+        margin-top: -60px;
+    }
+    .feature2 {
+      width: 250px;
+      padding: 20px;
+      background: #f2d3cb;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .feature2 i {
+      font-size: 40px;
+      color: #c76136;
+      margin-bottom: 10px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- 🗺️ Map -->
+  <div class="map-section">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609798155!2d72.74110197376905!3d19.082197839531853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63b903e6ffb%3A0xdea4e4f2d7e5c18a!2sMumbai!5e0!3m2!1sen!2sin!4v1610000000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+    <div class="contact-intro" style="padding: 40px 10%; text-align: center;">
+  <h2 style="color: #8b3e2f; font-size: 32px; margin-bottom: 15px;">Let’s Start Your Wedding Story</h2>
+  <p style="font-size: 16px; color: #5a4742; max-width: 800px; margin: 0 auto;">
+    At Vinhem, every detail speaks of elegance, every thread whispers romance. Whether you're a bride, groom, or a dreamer planning ahead — we're here to walk with you through your fashion journey. 
+    Reach out to our team to explore bespoke bridal wear, styling guidance, or to simply say hello. Your fairy tale begins here.
+  </p>
+</div>
+
+  <!-- 💌 Contact Section (Restored Version) -->
+  <div class="contact-container">
+    <div class="contact-info">
+      <h2>Contact Us</h2>
+      <p>📍 Address: 123 Vinhem Street, Mumbai, India</p>
+      <p>📞 Phone: +91 9876543210</p>
+      <p>✉️ Email: hello@vinhemfashion.in</p>
+    </div>
+    <div class="contact-form">
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ✨ Why Choose Us -->
+  <div class="section" style="background: #fff0f5;">
+    <h2>Why Choose Vinhem?</h2>
+    <div class="features">
+      <div class="feature">
+        <i>👗</i>
+        <h4>Exclusive Designs</h4>
+        <p>Fashion-forward collections tailored for weddings.</p>
+      </div>
+      <div class="feature">
+        <i>💖</i>
+        <h4>Personal Touch</h4>
+        <p>Romantic, personal styling for every bride & groom.</p>
+      </div>
+      <div class="feature">
+        <i>🌍</i>
+        <h4>Worldwide Shipping</h4>
+        <p>Delivering elegance to your doorstep — worldwide.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 💐 Meet Our Stylists Section -->
+<div class="section" style="background: #fff0f5;">
+  <h2>Meet Our Wedding Stylists</h2>
+  <p style="max-width: 700px; margin: 0 auto 40px; color: #5a4742;">
+    From modern minimalism to royal tradition, our in-house experts bring your dream wedding look to life. Let our stylists guide you through the perfect bridal ensemble.
+  </p>
+
+  <div class="features">
+    <div class="feature2">
+      <i>💄</i>
+      <h4> Name 1 </h4>
+      <p>Luxury bridalwear consultant with a flair for fusion couture.</p>
+    </div>
+    <div class="feature2">
+      <i>🎨</i>
+      <h4> Name 2 </h4>
+      <p>Men’s styling expert blending heritage with modern elegance.</p>
+    </div>
+    <div class="feature2">
+      <i>🌸</i>
+      <h4> Name 3 </h4>
+      <p>Soft glam specialist for brides who want timeless grace.</p>
+    </div>
+  </div>
+</div>
+
+
+  <!-- 💬 Testimonials -->
+  <div class="section" style="background: #fef6f0;">
+    <h2>What Our Clients Say</h2>
+    <p>⭐⭐⭐⭐⭐<br>"Vinhem made my wedding look like a dream!"</p>
+  </div>
+
+</body>
+</html>
